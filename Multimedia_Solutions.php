@@ -1,0 +1,1 @@
+<div class="banner"><img src="<?php echo public_images;?>/banner/award.jpg" alt="Finessse Interactive" /></div>

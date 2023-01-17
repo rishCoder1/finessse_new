@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+/* General CSS */
+body, html{font-family: 'Quicksand', sans-serif;overflow-x:hidden;position: relative;}
+.height-top{height:120px;}
+.scroll-pad{padding-top:85px;}
+div#preloader{position:fixed;left:0;top:0;z-index:99999;width:100%;height:100%;overflow:visible;background:url(../images/loading.gif) center center no-repeat #fff}
+a{color:#000;font-size:15px;}
+a:hover{color:#1ba6f7;}
+a, a:visited, a:link{text-decoration: none;}
+button:focus{outline:none;}
+button{font-size:14px;}
+ul,ol{list-style-type:none;}
+.underline{text-decoration:underline;}
+.side-t{padding-top:27px;padding-bottom:27px;}
+.border-left-gray{border-left:2px solid #333;}
+.top-icon i{color:#666!important;font-size:14px}
+.top-icon i:hover{color:#1ba6f7!important;}
+.top-icon a{color:#666!important;font-size:14px}
+.font14{font-size:14px;}
+.request-quote .close-button{font-size:30px;right:30px; top:4px;position:absolute;cursor:pointer;color:#1ba6f7}
+.request-quote{position:fixed;bottom:0;z-index:4;}
+li > a.active{color:#1ba6f7!important;}
+.nav li ul li a.active{color:#fff !important}
+.hideRequest{display:none!important}
+ .nav li ul li a.active:after{left:51%!important;right:51%!important;}
+.pl-client{padding-left:21rem;;}
+.bullet li:before {    
+font-family: 'FontAwesome';
+content: '\f111';
+color: #000;
+font-size:10px;position:absolute;left:106px}
+li.overlay ul{width:50%}
+li.overlay ul:nth-child(2){left:-22px;}
+a.active:before{content: "";position: absolute;z-index: -1;left: 2%!important;right: 2%!important;bottom: 0;background: #fff;
+height: 2px;-webkit-transition-property: left, right;transition-property: left, right;-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
+.home-banner-overlay{width: 100%; height: 100%; background-color: rgba(0,0,0,.5); z-index:5;position: absolute;
+  transition:0.2s all ease-in-out;top:0;overflow:hidden;}
+.hide-des{display:none;}
+.fa-chevron-right{padding-left:5px;font-size:10px;transition:0.5s all ease-in-out;}
+.icon-left{margin-left:2.5rem;}
+.link-hover{transition:0.5s all ease-in-out;}
+.link-hover:hover .fa-chevron-right{color:#1ba6f7!important;font-size:12px;padding-left:10px;}
+.link-hover:hover {padding-left:40px;background:url(../images/arrow.png) 15px 19px no-repeat;}
+.web-application-services .link-hover:hover {padding-left:40px;background:url(../images/arrow.png) 15px 14px no-repeat;}
+/*.link-hover:hover {padding-left:40px;}*/
+.heading{font-size:50px; font-family:misolight;text-transform: uppercase;text-align:center;}
+.home-heading{font-size:70px;position:absolute;top:36%;line-height:50px;font-family:misolight;text-transform: uppercase;left:-60px;z-index:99;transition:0.5s all ease-in-out;}
+.home-heading2{left:13px;top:38%;}
+.get-top{margin-top:7rem;}
+.pad-left{padding-left:5rem;}
+.grayColor{color:lightgray!important;}
+.team-heading{font-size:46px; font-family:misolight;text-transform: uppercase;text-align:center;}
+.team-designation{font-size:26px; font-family:misolight;text-align:center;}
+.back-light, .back-dark{position:relative;z-index:1;padding:0 3px;}
+.back-light:after{content:"";background-color:#bfeaff;height:28px;position:absolute;width:100%;bottom:0;left:0;
+z-index:-2; transition:0.5s all ease-in-out; }
+.back-dark:after{content:"";background-color:#1ba6f7;height:28px;position:absolute;width:100%;bottom:0;left:0;
+z-index:-2; transition:0.5s all ease-in-out; }
+.back-light:hover:after, .back-dark:hover:after{height:55px;}
+.font40{font-size:40px;}
+
+.font24{font-size:24px;}
+.font20{font-size:20px;}
+.font18{font-size:18px;}
+.font16{font-size:16px;}
+.font12{font-size:12px;}
+.font10{font-size:10px;}
+.blueColor{color:#1ba6f7!important;}
+.lightblue{color:#bfeaff!important;}
+.blue-bg{background-color:#1ba6f7!important;}
+.blackColor{color:#000;}
+.gray-bg{background-color:#f5f5f5;}
+.white-bg{background-color:#fff;}
+.whiteText{color:#fff !important;}
+.blackText{color:#caedfe;}
+.headingText{color:#000000;}
+.cursorPointer{cursor:pointer;}
+.font700{font-weight:700;}
+.font500{font-weight:500;}
+.font300{font-weight:300;}
+.pad-9{padding-left:9rem;}
+.pad-links-9{padding-left:2.7rem;}
+.pad-5{padding-left:5rem;}
+.mar-9{padding-left:9rem;}
+.padt-5{padding-top:5rem;}
+.padb-5{padding-bottom:5rem;}
+.para-padding{padding-left:10rem;padding-right:10rem;}
+.para-padding-small{padding-left:7rem;padding-right:7rem;}
+.para-padding-5{padding-left:5rem;padding-right:5rem;}
+p{font-size:15px;line-height: 1.5rem}
+.top-border{border-top:6px solid #eee; margin-top:10px;}
+.top-border1{border-top:1px solid #ddd;}
+.border-bottom-white{border-bottom:1px solid #fff!important;}
+.banner img{max-width:100%}
+.sticky-top{border-bottom:1px solid #eee;}
+
+ .psd-banner p, .php-banner p, .magento-banner p, .html-banner p, .graphic-banner p, .corporate-web-banner p, .conversion-banner p, .cms-banner p, .chat-banner p, .brochure-banner p, .b2b-banner p, .asp-banner p, .ux-banner p, .corporate-banner p, .copywriting-banner p, .domain-banner p, .ecommerce-banner p, .ppc-banner p, .online-banner p, .seo-banner p, .social-banner p , .email-banner p, .web-application-banner p, .web-mobile-banner p, .web-developement-banner p, .social-banner p{font-weight:500} */
+.tabcontent {display: none;}
+.btn-none{border:none;background:0;outline:0;cursor:pointer;}
+.bodyOverlay{width: 100%; height: 100%; background-color: rgba(0,0,0,.9); z-index:9;position: absolute;
+	transition:0.2s all ease-in-out;display:none;}
+.bodyOverlay.opa{display:block;}
+.fixed-header{position:fixed;width:100%;z-index:1000;/*height:80px;*/border-bottom:1px solid #eee;}
+.client-heading{top:0;right:-2rem;}
+.client-heading p{word-spacing:1px;}
+.web-application-services ul.digital-list li{padding:5px 0 5px 30px;background:url(../images/arrow.png) 0 14px no-repeat;}
+
+/*Navigation css*/
+.nav > li{padding:1rem 1.3rem;}
+.nav li, .quote1 li{ position:relative;display: inline-block;padding-bottom:0.5rem;box-shadow: 0 0 1px rgba(0, 0, 0, 0);}
+.nav > li a:before, .quote1 li:before{content: "";position: absolute;z-index: -1;left: 51%;right: 51%;bottom: 0;background: #1ba6f7;
+height: 2px;-webkit-transition-property: left, right;transition-property: left, right;-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
+.nav  li a:hover:before, .nav > li:active:before, .quote1 li:focus:before {left: 0;right: 0;}
+.nav > li a{color:#000;font-weight:500;}
+.nav > li a:hover{color:#1ba6f7;}
+.nav > li:last-child{margin-left:0.5rem;}
+.nav > li:last-child a:before{background:none;}
+.nav > li:last-child a{background-color:#1ba6f7;color:#fff!important;padding-bottom:0.3rem;padding:0.3rem 0.8rem;}
+.nav > li:last-child:before{background-color:#fff!important;}
+.nav li:hover ul{display:block;}
+.nav li ul{position: absolute;width: 275px;margin-top: 0;left: 210px;padding-top:45px;z-index:999999;display:none;}
+.nav li ul li{display:block;padding-bottom:0.5rem;}
+.nav li.active ul li a:before{left: 0%;right: 0%;}
+.nav li ul li a{color:#fff;font-size:14px;padding:0.5rem 0.1rem!important;-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);position: relative;}
+.nav ul li a:before{content: "";position: absolute;z-index: -1;left: 51%;right: 51%;bottom: 0;background: #fff;
+height: 2px;-webkit-transition-property: left, right;transition-property: left, right;-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
+.nav ul li a:hover:before{left: 0;right: 0;}
+.nav ul li a:hover{color:#fff;}
+.nav ul li a.active:before{background:none}
+.nav ul li a:hover.active:before{background:#fff}
+.pd-13{padding-top:13px;}
+
+
+.forDesktop{display:block;width:100%;object-fit:contain;}
+.forMobile{display:none}
+
+/*end of navigation css*/
+
+.delhi-location:before{content: url(../images/delhi-icon.png);position: absolute;}
+.banglore-location:before{content: url(../images/bangalore-icon.png);position: absolute;}
+.footer-div:before{content: url(../images/footer-logo.png);position: absolute;}
+.query{background-image:url('../images/form_bg.jpg');background-size:cover;padding-bottom:2rem;
+background-repeat:none;background-attachment: fixed;}
+.digital-banner{background-image:url('../images/banner/digitalbanner.jpg');
+background-repeat:no-repeat;padding-bottom:4rem; padding-top:2rem;background-position:center;background-size:cover;}
+.social-banner{background-image:url('../images/banner/SocialMediaMarketing.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.seo-banner{background-image:url('../images/banner/SEO.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.online-banner{background-image:url('../images/banner/OnlineReputationManagement.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.ppc-banner{background-image:url('../images/banner/PPC-Management.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.ecommerce-banner{background-image:url('../images/banner/EcommerceDevelopment.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.domain-banner{background-image:url('../images/banner/Domain&Hosting.jpg');
+background-repeat:no-repeat;padding-bottom:2rem; padding-top:2rem;background-position:center;background-size:cover;}
+.corporate-banner{background-image:url('../images/banner/BrochureDesign.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.copywriting-banner{background-image:url('../images/banner/Copywriting.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.ux-banner{background-image:url('../images/banner/UXDesign.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.asp-banner{background-image:url('../images/banner/Asp.net.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.b2b-banner{background-image:url('../images/banner/B2BWebsite.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.chat-banner{background-image:url('../images/banner/Chatbots.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.cms-banner{background-image:url('../images/banner/CMS-Website.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.conversion-banner{background-image:url('../images/banner/ConeversionRateOptimization.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.corporate-web-banner{background-image:url('../images/banner/CorporateWebDesign.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.graphic-banner{background-image:url('../images/banner/GraphicDesign.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.html-banner{background-image:url('../images/banner/HTMLS-CSS3.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.magento-banner{background-image:url('../images/banner/MagentoWebsite.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.php-banner{background-image:url('../images/banner/PHP-Website.jpg');
+background-repeat:no-repeat;background-attachment: fixed;padding-bottom:4rem; padding-top:4rem;background-position:center;}
+.psd-banner{background-image:url('../images/banner/PSDtoHTML.jpg');
+background-repeat:no-repeat;background-position:center;padding-bottom:4rem; padding-top:4rem;}
+.psd-banner ul.digital-list li{font-weight:500;}
+/*.email-banner{background-image:url('../images/banner/emailbanner.jpg');
+background-repeat:no-repeat;padding-top:2rem;padding-bottom:2rem; background-attachment: fixed;background-position:center top; height:404px; background-size: cover;}*/
+
+.email-banner {background-image: url("../images/banner/emailbanner.jpg");
+background-repeat: no-repeat; padding-bottom:4rem; padding-top:4rem;background-size:cover;background-position:center;}
+.middle-archies {background-image: url("../images/casestudy/bg.jpg");background-repeat: no-repeat;background-size:cover;
+background-position: center;background-attachment: fixed;}
+.middle-saha {background-image: url("../images/casestudy/saha-bg.jpg");background-repeat: no-repeat;background-size:cover;
+background-position: center;}
+.web-application-banner{background-image:url('../images/banner/web-application-banner.jpg');
+background-repeat:no-repeat;padding-bottom:4rem; padding-top:4rem;}
+.web-mobile-banner{background-image:url('../images/banner/web-mobile-design.jpg');
+background-repeat:no-repeat;padding-bottom:4rem; padding-top:4rem;}
+.web-developement-banner{background-image:url('../images/banner/web-developement-banner.jpg');
+background-repeat:no-repeat;padding-bottom:4rem; padding-top:4rem;}
+.digital-services{background-image:url('../images/banner/Digital-Marketing.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:18rem;}
+.email-services{background-image:url('../images/banner/EmailMarketing-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:18rem;}
+.web-application-services{background-image:url('../images/banner/web-application-bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:10rem;background-position:center;}
+.web-mobile-services{background-image:url('../images/banner/web-mobile-service-bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.web-developement-services{background-image:url('../images/banner/web-developement-service-bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.social-services{background-image:url('../images/banner/SocialMediaMarketing-bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.seo-services{background-image:url('../images/banner/SEO-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.online-services{background-image:url('../images/banner/OnlineReputationManagement-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:18rem;background-position:center;}
+.ppc-services{background-image:url('../images/banner/web-developement-service-bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.ecommerce-services{background-image:url('../images/banner/EcommerceDevelopment-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.domain-services{background-image:url('../images/banner/Domain&Hosting-Bg.jpg');
+background-repeat:no-repeat;padding-bottom:18rem;background-position:center;}
+.copywriting-services{background-image:url('../images/banner/Copywriting-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:12rem;background-position:center;}
+.corporate-services{background-image:url('../images/banner/CorporateBrandingSolution-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:15rem;background-position:center;}
+.content-marketing-services{background-image:url('../images/banner/CorporateBrandingSolution-Bg.jpg');
+background-repeat:no-repeat;padding-top:5rem;padding-bottom:15rem;background-position:center;}
+.ppc-services{background-image:url('../images/banner/PPC-Management-Bg.jpg');
+background-repeat:no-repeat;padding-top:7rem;padding-bottom:15rem;background-position:center;}
+/* input[type="file"]{
+    color: transparent!important ;
+} */
+
+/*Query form css*/
+.quote{display:inline-block!important;}
+.quote1, .quote1 ul{width:90%;max-width:100%;}
+.quote1 ul li {width:40%;margin-left:5%;padding:1.8rem 0 0 0;margin-bottom:1%;border-bottom:1px solid #fff;}
+.quote1 ul li input,select,textarea{font-weight:500;font-size:14px!important;border:none;background: 0 0;outline:none;padding:0;margin:0;width:85%;color:#fff;}
+.quote1 ul li select option{border:none;background:#1ba6f7;outline:none;padding:0;margin:0;width:80%;font-size:14px!important;}
+.quote1 .w-85{width:85%!important;}
+.quote1 img{padding-right:1rem;padding-bottom:0.5rem;}
+.quote1 i{padding-right:2%;color:gray;border-right:1px solid gray;}
+.quote1 input[type=email]::-webkit-input-placeholder{color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 input[type=text]::-webkit-input-placeholder{color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 input[type=phone]::-webkit-input-placeholder {color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 input[type=number]::-webkit-input-placeholder {color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 textarea::-webkit-input-placeholder{color: #fff;font-size: 15px;font-weight:500;}
+.quote1 input[type=email]::-moz-placeholder{color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 input[type=text]::-moz-placeholder{color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 input[type=phone]::-moz-placeholder{color: #fff;font-size: 13px!important;font-weight:500;}
+.quote1 textarea::-moz-placeholder{color: #fff;font-size: 15px;font-weight:500;}
+.btn1{background:#1ba6f7 url(../images/white-arrow.png) no-repeat 90% 50%;font-weight:500;padding-right:3.3rem!important;border:1px solid #1ba6f7;border-radius:0!important; color:#fff;padding:0.4rem 2rem;transition:0.5s all ease-in-out;}
+.btn1:hover{background:#bfeaff url(../images/black-arrow.png) no-repeat 93% 50%;color:#000; border:1px solid #fff!important;}
+.btn2{background:#1ba6f7;border-radius:0!important; color:#fff;padding:0.3rem 2rem;transition:0.5s all ease-in-out;}
+.tablinks{background:url(../images/DigitalMarketing/direction-icon.png) no-repeat 0 50%;padding:0 1.5rem;}
+/* End of Query form css*/
+ul.social{margin:auto;width:100%;}
+ul.social li{display:inline-block;width:12%;/*border:1px solid gray;*/vertical-align:middle;padding:0.5rem;
+	transition:0.2s all ease-in-out ;color:#606060;}
+ul.social li a{color:#606060;display:block;}
+ul.social li:hover i{color:#fff!important;}
+ul.social li:nth-child(1):hover{background-color:#3b5998;border-color:#3b5998;}
+ul.social li:nth-child(2):hover{background-color:#55acee;border-color:#55acee;}
+ul.social li:nth-child(3):hover{background-color:#007bb5;border-color:#007bb5;}
+ul.social li:nth-child(4):hover{background-color:#13568b;border-color:#13568b;}
+ul.social li:hover a{color:#fff!important;}
+ul.social { border-bottom: 1px solid #eee;   padding: 0 0 40px; }
+ul.social i{padding-top:0.2rem;color:#606060!important}
+ul.digital{display:flex;}
+ul.digital li{width:32%;}
+ul.digital li h1{text-align:left;}
+.expandContent, .content, .expandContentView{  display:none}
+.expandText:after{content:'more +'}
+.minusText:after{content:'less -'}
+.expandText:after,.minusText:after{color:#1ba6f7; margin-top:3px!important;cursor:pointer;font-weight:normal!important;}
+.expandText,.minusText{display:block; width:100%; text-align:left}
+.addText,.lessText{display:block;}
+.addText:after{content:'More +';cursor:pointer;color:#1ba6f7;display:block;}
+.lessText:after{content:'Less -';cursor:pointer;color:#1ba6f7;display:block;}
+.expandText{display:block; width:100%; text-align:left;}
+.plus{background:url(../images/plus.png) 96% no-repeat;cursor:pointer;}
+.minus{background:url(../images/minus.png) 96% no-repeat;cursor:pointer;}
+ul.digital-list > li{padding:10px 0 10px 30px;background:url(../images/arrow.png) 0 19px no-repeat;font-size: 15px;color:#000;}
+ul.white-list li{padding:2px 0 9px 30px;background:url(../images/white-arrow.png) 0 7px no-repeat;font-size: 15px;color:#fff;}
+.block a{border:1px solid lightgray;font-weight:700;border-collapse:collapse;
+padding:1rem 2rem ;transition:0.3s all ease-in-out;background:#eee url(../images/black-arrow.png) no-repeat 90% 50%;}
+.block a:hover{color:#fff;background:#1ba6f7 url(../images/white-arrow.png) no-repeat 95% 50%;}
+.quote input[type=email]::-webkit-input-placeholder,input[type=text]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder{color: #000;font-size: 13px!important;font-weight:500!important;}
+.quote input[type=email]::-moz-placeholder,input[type=text]::-moz-placeholder,
+input[type=phone]::-moz-placeholder{color: #000;font-size: 13px!important;font-weight:500!important;}
+.quote input, textareat{z-index:5;}
+.quote ul li{float:left;width:13%;margin-left:1.5rem;border-bottom:1px solid #000;padding-bottom: 0.3rem}
+.quote ul li:first-child{margin-left:0;}
+.quote ul li:last-child{width:10%!important;margin-left:2rem;}
+.quote ul li input{width:55%;border:none;outline:none;background:0 0;}
+.border-bottom{border-bottom:1px solid #000!important}
+.banner-margin{margin-top:0.8rem;}
+/*Clients page*/
+ul.clients{margin-bottom:0!important;}
+ul.clients li{position:relative;float:left;/*border-left:1px solid #ccc;*/}
+.behind, .behind-late{position:absolute;left:0;}
+.pic-1{ z-index: 102; }
+.pic-2{ z-index: 101; }
+.pic-1, .pic-2{ position: absolute; left: 0 }
+/*ul.pillar-list li{width:24%;float:left;padding:0 5rem;vertical-align:middle;}*/
+
+.bx-wrapper .bx-loading{display:none;}
+.team img{max-width:100%;}
+.static{position:absolute;}
+/*.gif{position:absolute;top:-10%;}*/
+.team-text{position:absolute;bottom:0;transition:0.5s all ease-in-out;opacity:0;}
+.static:hover{opacity:0;} 
+/*.full-des:hover{padding-bottom:10%;}*/
+.full-des:hover .team-text{bottom:0%;opacity:1;}
+.cover, .cover-text{width:35%;}
+.box{top:10%;}
+.work{background-color:#fff}
+.work p{font-size:14px!important; line-height:1.1rem!important;}
+.work .bx-wrapper .bx-pager.bx-default-pager a {
+  margin: 0 5px 0 45px;
+}
+.work .bx-pager-item:after {
+  width: 53px;
+  left: 65px;
+  top: 11px;
+}
+.work .pager-text span {
+  width: 6rem;
+  display: inline-block;
+  text-align: center!important;
+  color: gray;
+  line-height: 14px!important;
+  font-size: 10px!important;
+  width: 70px !important;
+  padding: 0 !important;
+}
+.work .bx-wrapper .bx-controls-auto, 
+.work .bx-wrapper .bx-pager {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  left: 0;
+  margin: 0 auto!important;
+  text-align: center;
+}
+.work .pager-text {
+  margin: 40px 0 0;
+}
+
+.button-black{border:1px solid black; padding:8px 32px;padding-right:52px;font-weight:500;background:url(../images/black-arrow.png) 85% 50% no-repeat;transition:0.5s all ease-in-out;}
+.button-black:hover{color:#fff;background:#1ba6f7 url(../images/white-arrow.png) 90% 50% no-repeat;border:1px solid #fff;}
+.button-white{border:1px solid #fff; padding:8px 32px;padding-right:52px;font-weight:500;background:url(../images/white-arrow.png) 85% 50% no-repeat;transition:0.5s all ease-in-out;color:#fff;}
+.button-white:hover{background-position:90% 50%;color:#fff;background-color:#1ba6f7;border:1px solid #1ba6f7;}
+.mobile-clients{display:none;}
+.pager-text span{width:6rem;display:inline-block;text-align:center!important;color:gray;line-height:14px!important;font-size:10px!important;}
+ul.service-list li{width:45%;float:left;margin-right:4%;text-align:left;}
+
+
+.team .border-right{border-right:1px solid #eee;}
+.team .border-top{border-top:1px solid #eee;}
+
+/*.bx-pager-item:nth-child(1):after{content:'';width:0;right:0;}*/
+
+
+
+
+.main-heading{
+  padding-right: 50%;
+}

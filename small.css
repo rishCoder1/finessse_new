@@ -1,0 +1,149 @@
+/*Navigation CSS*/
+header>div{padding:0.5rem!important;}
+ul,h1,p,h2,h3{padding-left:0.5rem!important;padding-right:0.5rem!important}
+.nav{background-color:rgba(0,0,0,0.9);top:97%;right:0;padding:0.5rem;position: absolute;display: none; width: 100%}
+.nav li ul {position: static;display: none; width: 100%;padding-top:3%;}
+.nav > li{display:block;width:100%;padding-top:0.3rem;position:relative;}
+.nav li a{color:#fff;}
+.nav > li:last-child{margin-left:0;padding-left:1rem;}
+.nav li:last-child a{background-color:transparent;color:#fff!important;padding-bottom:0.3rem;padding:0.3rem}
+.nav li:last-child:before{background-color:#1ba6f7;}
+/*.nav li ul li{display:block;padding-bottom:0.5rem;}*/
+.Icon{display:block; position:absolute; top:90px; right:5%; background:#fff; height:29px;width:40px;transition: all .5s ease-in-out 0s; transform: rotate(0);opacity:1; cursor:pointer;z-index:1;}
+.Icon span{ height:3px; background:#000; width:30px; position:absolute;top:10px; margin-left:5px;transition: all .25s ease-in-out 0s;}
+.Icon span:nth-child(1){top:6px}
+.Icon span:nth-child(2),.Icon span:nth-child(3){top:13px;right:2%;}
+.Icon span:nth-child(4){top:20px}
+.Icon.open span:nth-child(3){display:block}
+.Icon.open span:nth-child(1),.Icon.open span:nth-child(4){width:0}
+.Icon.open span:nth-child(2){transform:rotate(45deg)}
+.Icon.open span:nth-child(3){transform:rotate(-45deg)}
+.bodyOverlay.opa{opacity:0;display:none;}
+.top-15{margin-top:5rem;}
+/*End of Navigation Css*/
+.expandContent{display:block;}
+.request{position:fixed!important;z-index:10;}
+ .content, .expandContentMobile, .expandText, .minusText, .pager-text{  display:none}
+.expandTextMobile:after{content:'More +'}
+.minusTextMobile:after{content:'Less -'}
+.expandTextMobile:after,.minusTextMobile:after{color:#1ba6f7; padding: 0 10px; cursor:pointer;font-weight:700;}
+.expandTextMobile,.minusTextMobile{display:block; width:100%; text-align:center}
+.f-left{float:left;}
+.f-right{float:right;}
+.hide-des{display:inline-block;}
+.pad-links-9{padding-left:3rem;}
+.font40{font-size:20px;}
+.fa-2x{font-size:1rem;}
+.font20{font-size:15px;}
+.font18{font-size:15px;}
+.hide{display:none!important;}
+.pad-9{padding-left:0rem;}
+.para-padding-small{padding-left:1rem;padding-right:1rem;}
+.banner-text h1{font-size:12px!important;}
+.para-padding{padding-left:1rem;padding-right:1rem;}
+.lightblue{color:#fff!important;}
+.down-arrow, .touch-btn, .arrow, .social span, .home-clients{display:none;}
+.heading{font-size:28px;}
+.back-light:after{height:15px;}
+.work p{line-height:1.4rem!important;}
+.back-dark:after{height:15px;}
+.back-light:hover:after, .back-dark:hover:after{height:28px;}
+.home-work{background-repeat:repeat;}
+.pad-left{padding-left:1rem;}
+.home-heading{font-size:25px;top:0%;left:16%;position:static;text-align:center!important;line-height:30px;font-weight:bold;}
+.clients-list .bx-next, .clients-list .bx-prev {display:none;}
+.quote1 ul, .quote ul{padding-left:0;width:100%}
+.quote ul li, .quote1 ul li{width:100%;margin-left:0}
+.quote1 ul li:last-child{width:100%!important;padding-top:1.5rem;}
+.quote ul li{padding-top:1.5rem;}
+.quote1 ul li select{width:83%}
+.quote span{display:block;}
+.para-padding-5{padding-left:0.5rem;padding-right:0.5rem;}
+ul.career{padding-left:0;}
+ul.social li:nth-child(1){background-color:#3b5998;border-color:#3b5998;color:#fff!important;}
+ul.social li:nth-child(2){background-color:#55acee;border-color:#55acee;}
+ul.social li:nth-child(3){background-color:#007bb5;border-color:#007bb5;}
+ul.social li:nth-child(4){background-color:#8a3ab9;border-color:#8a3ab9;}
+ul.social i {color:#fff!important;}
+ul.clients, ul.social{padding-left:0;}
+.client-top{padding-top:9.5rem;}
+.client-heading{top:145px!important;padding:0.5rem;text-align:center!important;right:0!important;position:absolute;}
+ul.clients li{width:50%;}
+ul.clients li img{width:100%}
+ul.service-list{padding-left:0}
+.mobile-clients{width:100%;}
+.height-top{height:145px;}
+.w-50{float:left}
+/* .mobile-clients img{width:90%;max-width:100%;} */
+.mobile-clients{display:block; padding:0 10px;}
+.footer-div:before{content:"";}
+.pad-5{padding-left:0;}
+.footer-div{text-align:center}
+.delhi-location:before, .banglore-location:before{top:0;left:35%}
+.contact-top{padding-top:0.5rem;}
+.contact{text-align:center!important;}
+ul.digital, ul.digital-list{padding-left:0}
+ul.digital img{width:60%;}
+ul.digital .small-width{width:55%!important;}
+ul.digital .heading{font-size:20px;text-align:center;}
+ul.digital li:first-child img{float:left;}
+ul.digital li:last-child img{float:right;}
+.email-banner{min-height:100%;}
+.digital-banner, .email-banner, .social-banner, .seo-banner, .online-banner, .web-mobile-banner, .ppc-banner, .copywriting-banner, .web-developement-banner, .web-application-banner, .ecommerce-banner, .domain-banner, .corporate-banner, .ux-banner, .conversion-banner, .cms-banner, .psd-banner, -banner, .corporate-web-banner, .b2b-banner, .b2c-banner, .asp-banner, .chat-banner, .php-banner, .magento-banner, .graphic-banner{padding-top:5rem;padding-bottom:5rem;background-position:center center;background-attachment:local;background-size:cover;}
+.digital-services, .email-services, .social-services, .seo-services, .online-services, .web-mobile-services, .ppc-services, .content-marketing-services, .web-developement-services, .web-application-services, .ecommerce-services, .domain-services, .corporate-services, .copywriting-services{background-color:#eee;background-image:none;padding-top:1rem;padding-bottom:1rem;}
+.digital-banner h1, .email-banner h1, .social-banner h1, .seo-banner h1, .online-banner h1, .web-mobile-banner h1, .ppc-banner h1, .copywriting-banner h1, .web-developement-banner h1, .web-application-banner h1, .ecommerce-banner h1, .domain-banner h1, .corporate-banner h1 , .ux-banner h1, .conversion-banner h1, .cms-banner h1, .psd-banner h1, -banner h1, .corporate-web-banner h1, .b2b-banner h1, .b2c-banner h1, .asp-banner h1, .chat-banner h1, .php-banner h1, .magento-banner h1, .graphic-banner h1{font-size:1rem!important;text-align:center;}
+.digital-banner h3, .email-banner h3, .social-banner h3, .seo-banner h3, .online-banner h3, .web-mobile-banner h3, .ppc-banner h3, .copywriting-banner h3, .web-developement-banner h3, .web-application-banner h3, .domain-banner h3, .corporate-banner h3, .ux-banner h3, .conversion-banner h3, .cms-banner h3, .psd-banner h3, -banner h3, .corporate-web-banner h3, .b2b-banner h3, .b2c-banner h3, .asp-banner h3, .chat-banner h3, .php-banner h3, .magento-banner h3, .graphic-banner h3{font-size:15px;text-align:center;font-weight:normal;}
+.padt-5{padding-top:0.5rem;}
+.block a{background-position:95% 50%;}
+.top-border-mobile{border-top:1px solid gray;}
+.back-light:after{height:0;}
+
+.digital-icon, .social-icon, .seo-icon, .web-application-icon{margin-left:0!important;}
+.bx-pager{display:none;}
+.bx-wrapper .bx-controls-direction a{top:20%!important;}
+.bx-wrapper .bx-next{right:3px!important;}
+.bx-wrapper .bx-prev{left:3px!important;}
+.addText, .lessText{display:none;}
+.team-text{opacity:1;}
+.full-des{padding-bottom:10%;}
+.pad-5{padding-left:1rem!important;}
+.bullet li:before{left:63px;}
+.pad-el{padding-left:2rem!important;}
+h2{font-size:1.5rem;}
+.bx-clone{display:none;}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+	.nav{top:100%;}
+	.contact{text-align:center!important;}
+	.delhi-location:before, .banglore-location:before{left:42%}
+	.pad-9{text-align:center;}
+	.pad-links-9{padding-left:6rem;}
+	.client-heading{right:17%!important;}
+	.client-top{padding-top:8.5rem;}
+    .request{display:none;}
+    .digital-icon, .social-icon, .seo-icon, .web-application-icon{margin-left:2.5rem!important;}
+   /*  .mobile-clients img{width:100%; height:auto;} */
+    .pad-el{padding-left:6rem!important;}
+    ul.digital h1{font-size:2rem!important;}
+    ul.work-slider li{padding-left:1rem!important;padding-right:1rem!important;}
+    .no{display:none!important;}
+    .request{position:static;}
+	.height-top{height:127px;}
+	.digital-icon, .social-icon, .seo-icon, .web-application-icon{margin-left:3rem;}
+}
+@media screen and (max-device-width: 590px) and (orientation: landscape) {
+	.icon{top:75px;}
+	ul.service-list li span{display:block!important;}
+}
+@media only screen and (max-device-width: 380px) {
+	.mobile-clients img{width:90%}
+	.nav{top:100%;}
+	.contact{text-align:center;}
+/* 	.header-top{text-align:left!important}
+.header-top .pl-5{padding-left:0!important}
+.header-top .pr-sm-5{padding-right:0!important;}
+.top-icon a{font-size:12px;} */
+}
+
+/* .forDesktop{display:none} */
+.forMobile{display:block}

@@ -1,0 +1,35 @@
+/*@font - face {
+    font - family: misolight;
+    src: url(../webfonts/miso-light-webfont.eot);
+    src: url(../webfonts/miso-light-webfont.eot ? #iefix) format("embedded-opentype"), url(../webfonts/ miso - light - webfont.woff2) format("woff2"), url(assets / fonts /miso-light-webfont.woff) format("woff"), url(../webfonts/ miso - light - webfont.ttf);
+    font - weight: 400;
+    font - style: normal
+}*/
+
+@-webkit-keyframes plsy {
+   from { background-position:    0px; }
+     to { background-position: -6300px; }
+}
+
+@-moz-keyframes plsy {
+   from { background-position:    0px; }
+     to { background-position: -6300px; }
+}
+
+@-ms-keyframes plsy {
+   from { background-position:    0px; }
+     to { background-position: -6300px; }
+}
+
+@-o-keyframes plsy {
+   from { background-position:    0px; }
+     to { background-position: -6300px; }
+}
+
+@keyframes plsy {
+   from { background-position:    0px; }
+     to { background-position: -6300px; }
+}
+
+
+@font-face{font-family:misolight;src:url(../webfonts/miso-light-webfont.eot);src:url(../webfonts/miso-light-webfont.eot?#iefix) format("embedded-opentype"),url(../webfonts/miso-light-webfont.woff2) format("woff2"),url(../webfonts/miso-light-webfont.woff) format("woff"),url(../webfonts/miso-light-webfont.ttf) format("truetype"),url(../webfonts/miso-light-webfont.svg#misolight) format("svg");font-weight:400;font-style:normal}
