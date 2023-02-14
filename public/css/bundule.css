@@ -1616,6 +1616,7 @@ ul.service-list li {
     padding-bottom: 10px;
     border: 1px solid #7070702a;
     display: block;
+    padding-bottom: 20%;
 }
   .seo-ser .highlight-main:hover a {
     box-shadow: 0 0 10px #ddd;
@@ -1624,7 +1625,9 @@ ul.service-list li {
     transition: 0.3s all ease-in-out;
 }
 
-
+.highlight-main:hover .hover-blue p{
+color: #1BA6F7;
+}
 .seo-ser2 .highlight-main .highlight {
     padding-bottom: 5%;
     border: 1px solid #707070;
