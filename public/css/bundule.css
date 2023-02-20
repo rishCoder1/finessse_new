@@ -1737,6 +1737,21 @@ p{
     height: 100%;
     margin: 0 16px;
 }
+.second-cirl .first-row{
+    padding-right: 70px;
+}
+.second-cirl .sec-row{
+    padding-left: 70px;
+}
+.second-cirl .box{
+    padding: 37px 22px;
+    box-shadow: 0px 3px 30px #00000029;
+    border: 10px solid #1BA6F7;
+    border-radius: 100%;
+    height: 100%;
+    margin: 0 16px;
+}
+
 
 /* Faqs */
 .accordian-item {
