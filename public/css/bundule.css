@@ -325,7 +325,7 @@ a.active:before {
 }
 
 .blueColor {
-    color: #1ba6f7 !important
+    color: #0681c9 !important
 }
 
 .lightblue {
@@ -417,7 +417,8 @@ a.active:before {
 
 p {
     font-size: 15px;
-    line-height: 1.5rem
+    line-height: 1.5rem;
+    font-weight: 500;
 }
 
 .top-border {
@@ -1586,13 +1587,14 @@ ul.service-list li {
     width: 30% !important;
 }
 .banner-main{
-    height: 60vh;
+    height: 40vh;
     display: flex;
     align-items: center;
   }
 .main-heading{
-    padding-right: 40%;
+    padding-right: 0%;
     font-weight: 700;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: capitalize !important;
   }
