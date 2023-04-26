@@ -416,8 +416,8 @@ a.active:before {
 }
 
 p {
-    font-size: 15px;
-    line-height: 1.5rem;
+    font-size: 18px;
+    line-height: 1.6rem;
     font-weight: 500;
 }
 
@@ -1612,7 +1612,7 @@ ul.service-list li {
     width: 80px;
   }
   .flex-div>div h6{
-    color: #1BA6F7;
+    color: #0681c9;
     font: normal normal bold 18px/30px Quicksand;
     padding: 15px 0;
   }
@@ -1727,7 +1727,7 @@ p{
     padding: 0 22px;
 }
 .flex-div2>div h6 {
-    color: #1BA6F7;
+    color: #0681c9;
     font: normal normal bold 18px/30px Quicksand;
     padding: 15px 0;
 }
