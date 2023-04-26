@@ -416,7 +416,7 @@ a.active:before {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6rem;
     font-weight: 500;
 }
@@ -6249,6 +6249,8 @@ color: #1ba6f7;
 }
 .li-point li{
     margin-bottom: 4px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 
