@@ -1680,7 +1680,10 @@ p{
     display: block;
     border-radius: 20px;
     text-align: left;
-
+    /* box-shadow: 0px 3px 30px #00000029; */
+    height: 247px;
+    display: flex;
+    align-items: center;
     /* box-shadow: 0px 3px 30px #00000029; */
 }
 .method .highlight-main .highlight p{
