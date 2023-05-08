@@ -6299,7 +6299,34 @@ color: #1ba6f7;
     font-size: 17px;
     font-weight: 500;
 }
-
+.page__pretitle {
+    display: block;
+    margin: 0 0 2em;
+  }
+  .page__pretitle-link {
+    color: #2d2dc7;
+    font-family: "Roboto";
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+  .page__pretitle-link:hover {
+    color: blue;
+  }
+  
+  .read-more__link {
+    font-family: "Roboto";
+    font-weight: 700;
+  }
+  
+  .read-more.is-inline,
+  .read-more.is-inline p,
+  .read-more.is-inline + span {
+    display: inline;
+  }
+  
+  .read-more.is-inline + span {
+    margin-left: 0.25em;
+  }
 
 @media all and (max-width:1200px) {
 
