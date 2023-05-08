@@ -374,7 +374,9 @@ a.active:before {
 .font500 {
     font-weight: 500
 }
-
+.font600 {
+    font-weight: 600;
+}
 .font300 {
     font-weight: 300
 }
@@ -2285,7 +2287,12 @@ color: #1ba6f7;
 .checkbox-list li {
   margin-bottom: 15px;
 }
-
+/* .carousel-item{
+    height: 400px;
+} */
+.flex-div>div.ad{
+    width: 20%;
+}
 /*checkbox css start*/
 .checkbox-list li [type=checkbox]:checked,
 .checkbox-list li [type=checkbox]:not(:checked),
@@ -2401,6 +2408,13 @@ color: #1ba6f7;
 .brd-r{
     border-right: 1px solid #fff;
 }
+.carousel-control-next {
+    right: -97px;
+}
+.carousel-control-prev {
+    left: -97px;
+}
+
 /*!
 * Font Awesome Free 5.0.9 by @fontawesome - https://fontawesome.com
 * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
